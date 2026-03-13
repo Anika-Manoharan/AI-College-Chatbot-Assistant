@@ -1,0 +1,298 @@
+{
+ "intents":[
+
+{
+"tag":"greeting",
+"patterns":[
+"Hi","Hello","Hey","Good morning","Good evening",
+"Is anyone there","Hello chatbot","Hi assistant",
+"Good afternoon","Hey there","Hi bot","Hello assistant",
+"Can you help me","I need help","Hi college assistant"
+],
+"responses":[
+"Hello! Welcome to ABC College. How can I assist you?",
+"Hi there! Ask me anything about our college.",
+"Greetings! I'm the college assistant."
+]
+},
+
+{
+"tag":"about_college",
+"patterns":[
+"Tell me about the college",
+"Information about your college",
+"College details",
+"What is ABC college",
+"Describe your institution",
+"College overview",
+"History of the college",
+"When was the college established",
+"Give me information about the institution",
+"What makes your college special",
+"About the campus",
+"Explain about the university",
+"Details of the college"
+],
+"responses":[
+"ABC College is a reputed institution offering undergraduate and postgraduate programs.",
+"Our college focuses on quality education, research and strong industry connections."
+]
+},
+
+{
+"tag":"courses",
+"patterns":[
+"What courses do you offer",
+"Programs available",
+"List of courses",
+"What degrees are offered",
+"Available programs",
+"What can I study here",
+"Undergraduate courses",
+"Postgraduate programs",
+"Engineering courses",
+"Management courses",
+"Data science program",
+"Computer science course",
+"Available departments",
+"Which course should I choose",
+"What subjects are taught"
+],
+"responses":[
+"We offer B.Tech, B.Sc Data Science, MBA, MCA and other programs.",
+"Our courses include engineering, science and management programs."
+]
+},
+
+{
+"tag":"admission",
+"patterns":[
+"How can I apply",
+"Admission process",
+"Admission procedure",
+"How to join the college",
+"How do I get admission",
+"Admission eligibility",
+"When do admissions start",
+"Steps to apply",
+"Application procedure",
+"How to submit admission form",
+"Entrance exam for admission",
+"Admission requirements",
+"How to register for admission",
+"Admission criteria"
+],
+"responses":[
+"Admissions are based on entrance exams and academic merit.",
+"You can apply through our official website during the admission period."
+]
+},
+
+{
+"tag":"fees",
+"patterns":[
+"What is the fee structure",
+"Course fees",
+"Annual tuition fee",
+"How much are the fees",
+"Fee details",
+"Total cost of study",
+"Engineering course fee",
+"Management course fee",
+"How much does it cost",
+"Semester fees",
+"Tuition fee details",
+"Fee payment options"
+],
+"responses":[
+"The fee structure varies depending on the course.",
+"Please check the admissions page for detailed fee information."
+]
+},
+
+{
+"tag":"scholarship",
+"patterns":[
+"Do you offer scholarships",
+"Scholarship details",
+"Financial aid options",
+"Merit scholarships",
+"Scholarship eligibility",
+"Can I get financial assistance",
+"Scholarship programs",
+"Education funding options",
+"Student financial support",
+"Are there scholarships available"
+],
+"responses":[
+"Our college provides merit-based and need-based scholarships.",
+"Students with excellent academic performance may qualify for scholarships."
+]
+},
+
+{
+"tag":"placement",
+"patterns":[
+"Placement details",
+"Placement record",
+"Do you provide placements",
+"Companies visiting campus",
+"Top recruiters",
+"Highest salary package",
+"Placement statistics",
+"Internship opportunities",
+"Job opportunities after graduation",
+"Campus recruitment",
+"Placement support",
+"Average salary package"
+],
+"responses":[
+"Our college has strong placement support with top companies recruiting students.",
+"Students receive training and internship opportunities before campus placements."
+]
+},
+
+{
+"tag":"departments",
+"patterns":[
+"Departments in the college",
+"Engineering departments",
+"List of departments",
+"Computer science department",
+"Mechanical engineering department",
+"Electronics department",
+"Management department",
+"Science departments",
+"Academic departments",
+"Which departments exist"
+],
+"responses":[
+"Our college includes departments such as Computer Science, Mechanical Engineering, Electronics, Data Science and Management."
+]
+},
+
+{
+"tag":"facilities",
+"patterns":[
+"What facilities are available",
+"Campus facilities",
+"Library information",
+"Laboratory facilities",
+"Sports facilities",
+"WiFi availability",
+"Research labs",
+"Student facilities",
+"Campus infrastructure",
+"Technology labs",
+"Study facilities"
+],
+"responses":[
+"Our campus includes modern labs, a digital library, sports facilities and high-speed internet."
+]
+},
+
+{
+"tag":"hostel",
+"patterns":[
+"Hostel facility",
+"Do you provide hostel",
+"Student accommodation",
+"Hostel details",
+"Boys hostel",
+"Girls hostel",
+"Hostel fees",
+"Accommodation for students",
+"Hostel rules",
+"Hostel availability"
+],
+"responses":[
+"We provide hostel facilities for both boys and girls with modern amenities."
+]
+},
+
+{
+"tag":"library",
+"patterns":[
+"Library details",
+"Library timings",
+"Digital library",
+"Books available",
+"Research journals",
+"Library resources",
+"Study materials",
+"Library facilities"
+],
+"responses":[
+"Our library provides thousands of books, journals and digital resources for students."
+]
+},
+
+{
+"tag":"events",
+"patterns":[
+"College events",
+"Cultural events",
+"Technical fest",
+"Student activities",
+"Upcoming events",
+"Annual day celebration",
+"Sports events",
+"College festivals"
+],
+"responses":[
+"Our college organizes technical fests, cultural programs and sports events every year."
+]
+},
+
+{
+"tag":"transport",
+"patterns":[
+"Transport facility",
+"College bus service",
+"Transportation options",
+"Bus routes",
+"Travel to campus",
+"How to reach the college"
+],
+"responses":[
+"The college provides bus transportation covering major areas of the city."
+]
+},
+
+{
+"tag":"contact",
+"patterns":[
+"Contact details",
+"College phone number",
+"Email address",
+"Location of the college",
+"College address",
+"How to contact college",
+"Where is the college located",
+"Contact information",
+"College support number"
+],
+"responses":[
+"You can contact us at admission@abccollege.edu or call +91-9876543210."
+]
+},
+
+{
+"tag":"goodbye",
+"patterns":[
+"Bye",
+"Goodbye",
+"See you",
+"Thanks bye",
+"Talk to you later",
+"Thank you",
+"Thanks for the help"
+],
+"responses":[
+"Goodbye! Have a great day.",
+"Thank you for visiting ABC College."
+]
+}
+
+]
+}
